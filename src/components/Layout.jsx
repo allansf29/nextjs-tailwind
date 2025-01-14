@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
     <LightDarkProvider>
     <div className="h-screen flex flex-row justify-start">
       <Sidebar />
-      <div className="bg-primary flex-1 p-4 text-white">
+      <div className="bg-primary flex-1 text-white">
           {children}
       </div>   
     </div>

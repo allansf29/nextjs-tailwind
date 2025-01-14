@@ -1,19 +1,7 @@
-/* @tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-body {
-  @apply bg-lightBackground text-lightText;
-}
-
-.dark body {
-  @apply bg-darkBackground text-darkText;
-} */
-
-/* GRADIENT */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 body {
   @apply bg-lightGradient text-lightText;

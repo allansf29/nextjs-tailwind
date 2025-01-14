@@ -32,9 +32,9 @@ const Sidebar = () => {
   );
 
   const collapseIconClasses = classNames(
-    "p-4 rounded bg-blue-50 dark:bg-gray-700 absolute right-0",
+    "p-2 rounded bg-blue-50 dark:bg-gray-700 absolute right-0",
     {
-      "rotate-180": toggleCollapse,
+      "rotate-180": !toggleCollapse,
     }
   );
 
